@@ -90,7 +90,6 @@ describe('Mark the first task completed and remove from the list', () => {
        const component = new ToDoListComponents();
         
        const selectFirstTask = await component.firstTaskCompleted;
-    //    await selectFirstTask.waitForDisplayed();
        await selectFirstTask.scrollIntoView();
        await selectFirstTask.click();
 

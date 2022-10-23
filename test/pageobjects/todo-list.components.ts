@@ -31,5 +31,8 @@ export class ToDoListComponents {
 get clearCompletedTasksButton(){
     return $('[class="clear-completed"]');
 }
+get selectLastTaskCompleted(){
+    return $("input[class='toggle']");
+}
 
 }
